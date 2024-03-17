@@ -1,0 +1,50 @@
+Exercise Solutions -- Lecture 02
+
+Exercise 1 - Generate test cases for LinkedList class insertFirst method
+
+a) Black box
+
+Test when list is empty.
+Test when list has one element.
+Test when list has many elements.
+
+b) White Box
+
+Test when this.head is not null. 
+Test when this.head is null.
+
+Exercise 2 - Generate test cases for ArrayedList class insertFirst() method
+
+a) Black box
+Test when list has many elements.
+Test when list has one element.
+Test when list is empty.
+Test when the list is full.
+Test when the list is almost full (capacity-1 elements).
+
+
+b) White box 
+Test when this.isFull() is false.
+Test when this.isFull() is true.
+ 
+
+
+Exercise 3 - See LinkedList.java for test code
+
+Exercise 4 - See ArrayedList.java for test code
+
+Can use all tests from Ex. 3, but we also need some 
+additional test cases since arrayed lists can be full.
+
+New test cases for isfull():
+Test that isFull returns true when list is full
+Test that isFull returns false when list is not full
+
+New test cases for insertFirst():
+Test when list is full.
+
+New test cases for deleteFirst():
+Test when list is full.
+
+
+
